@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: linear-gradient(to right,red,orange,yellow);
+    color: whitesmoke;
+    padding: 20px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: black;
+    cursor: pointer;
+}
+li:hover{
+    color: whitesmoke;
+}
+input{
+    width: 60%;
+    padding: 20px;
+
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+    background:linear-gradient(to right,whitesmoke,lightgrey,grey)
+}
+.box{
+    margin: 2%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    background-color:rgb(243, 240, 240);
+    color: black;
+}
+.box:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.about{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background:linear-gradient(to right,whitesmoke,lightgrey,grey)
+}
+.contact{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke
+;
+}
+.two{
+    margin: 5px;
+}
